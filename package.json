@@ -26,7 +26,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "cross-env NODE_ENV=development ts-node-dev --respawn --transpile-only src/app.ts"
+    "dev": "cross-env NODE_ENV=development ts-node-dev --respawn --transpile-only src/app.ts",
+    "build": "npm install && npm run build && npx prisma migrate deploy",
+    "start": "npm start"
   },
   "keywords": [],
   "author": "",
