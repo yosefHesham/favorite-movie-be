@@ -1,0 +1,33 @@
+{
+  "dependencies": {
+    "@google-cloud/storage": "^7.16.0",
+    "@prisma/client": "^6.13.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "firebase-admin": "^13.4.0",
+    "multer": "^2.0.2",
+    "mysql2": "^3.14.3",
+    "nanoid": "^5.1.5",
+    "prisma": "^6.13.0",
+    "zod": "^4.0.14"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.3",
+    "@types/multer": "^2.0.0",
+    "@types/node": "^24.1.0",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.8.3"
+  },
+  "name": "favorite-media-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
