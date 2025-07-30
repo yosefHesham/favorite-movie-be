@@ -22,4 +22,15 @@ export const mediaService = {
     ]);
     return { media, total };
   },
+
+  async updateMedia(id: number, data: MediaUpdateInput) {
+    return prisma.media.update({
+      where: { id },
+      data,
+    });
+  },
+
+  async deleteMedia(id: number) {
+    return prisma.media.delete({ where: { id } });
+  },
 };
